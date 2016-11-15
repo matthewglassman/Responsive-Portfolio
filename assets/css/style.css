@@ -1,0 +1,252 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  /*background-image: url("../images/cardboard_flat.jpg");
+  background-repeat: repeat; */
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/cardboard_flat.png");
+  background-repeat: repeat;
+}
+
+h1,h2,h3{
+  font-family: "Georgia",Times, "Times New Roman", serif;
+}
+.name{
+  float: left;
+  padding: 40px;
+  margin-left: 115px;
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color:#4aaaa5;
+  color:#ffffff;
+  /*outline:2px dashed red; /*DEBUG*/
+}
+#bout, #port, #cont, form, p{
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+#bout{
+  margin-top: 50px;
+  padding: 5px;
+  width: 70px;
+  float: right;
+/*  outline:2px dashed blue; /*DEBUG*/
+}
+#port{ 
+  margin-top: 50px;
+  margin-right: 10px;
+  padding: 5px;
+  width:80px;
+  float: right;
+  border-left: 1px solid #f0f0ee;
+  border-right: 1px solid #f0f0ee;
+/*  outline:2px dashed green; /*DEBUG*/
+}
+#cont{
+  margin-top: 50px;
+  padding: 5px;
+  width: 80px;
+  float: right;
+  margin-right: 30px;
+ /* outline:2px dashed purple; /*DEBUG*/
+}
+header{
+  /*clear: auto;*/
+  /*width: 960px;*/
+  background-color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0;
+  overflow: auto;
+  border-bottom: 2px solid #cccccc;
+ /* outline:2px dashed black; /*DEBUG*/
+}
+body{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  /*width: 960px;*/
+  /*outline:2px solid orange; /*DEBUG*/
+}
+.full{
+  margin: 25px 100px 15px 115px;
+  clear: both;
+  width: 970px;
+  /*height: 455px;*/
+  overflow: auto;
+/*  outline:2px solid red; /*DEBUG*/
+flex: 1;
+}
+#me{
+  float: left;
+  /*margin-top: 40px; 
+  margin-left: 30px; */
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px solid #dddddd;
+  background: #ffffff;
+  width: 650px;
+  height: 430px;
+  /*outline:2px solid teal /*DEBUG*/
+}
+#meAbout{
+  float: left;
+  color: #4aaaa5;
+/*  outline:2px solid brown; /*DEBUG*/
+}
+#meHR{
+  padding: 0, 5px, 0, 5px;
+  clear: both;
+}
+#mePhoto{
+  margin-right: 10px;
+  height: 185px;
+  width: 187px;
+  float: left;
+/*  outline:2px solid pink; /*DEBUG*/
+}
+p{
+ /* outline:2px dashed red; /*DEBUG*/
+  line-height: 35px;
+  color:#777777;
+}  
+.connection{
+  float: right;
+  text-align: center;
+  /*margin-top: 40px;
+  /*margin-right: 20px; */
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #ffffff;
+  /*outline:2px solid blue; /*DEBUG*/
+  width:270px;
+}
+#connectionHead{
+  color: #4aaaa5;
+}
+#ghicon{
+  /*float:left;*/
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+
+}
+#liicon{
+  /*float:left;*/
+  width: 70px;
+  height: 70px;
+  padding:10px;
+}
+#stackicon{
+  /*float:left;*/
+  width: 66px;
+  height: 66px;
+  padding: 10px;
+}
+.dasboot{
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  background-color:#666666;
+  clear: both;
+  border-top: 8px solid #4aaaa5;
+ /* outline:2px solid green; /*DEBUG*/
+}
+#contactarea{
+  float: left;
+ /* margin-top: 40px; 
+  margin-left: 30px; */
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #dddddd;
+  background: #ffffff;
+  width:650px;
+  height: 430px;
+  /*outline:2px solid teal /*DEBUG*/
+}
+#contact{
+  float: left;
+  color: #4aaaa5;
+/* outline:2px solid brown; /*DEBUG*/
+}
+/*label{
+  color: 777777;
+}*/
+
+input{
+  height: 25px;
+}
+
+form{
+  color: #777777;
+  font-size: 18px;
+}
+#name, #mail, #message{
+  color: #777777;
+}
+#name{
+  width: 100%;
+}
+#mail{
+  width: 100%;
+}
+#message{
+  width: 100%;
+  height: 100px;
+}
+
+#button{
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  margin-top: 10px;
+  padding: 5px;
+  width: 85px;
+  height: 45px;
+}
+hr{
+  clear: both;
+  padding: 0, 5px, 0, 5px;
+}
+img{
+  height: 220px;
+  width: 240px;
+}
+td{
+  padding: 20px;
+  /*position: absolute; */
+  position: relative;
+  height: 220px;
+  width: 240px;
+}
+#folio{
+  float: left;
+  /*margin-top: 40px; 
+  margin-left: 30px; */
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #dddddd;
+  background: #ffffff;
+  width: 650px;
+}
+#foliohead{
+  float: left;
+  color: #4aaaa5;
+/*  outline:2px solid brown; /*DEBUG*/
+}
+td h3{
+  background-color: #4aaaa5;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  right: 0;
+  margin: 20px;
+  padding: 15px 0 15px 0;
+}
