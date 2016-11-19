@@ -291,6 +291,9 @@ td h3{
   textarea{
     width: 600px;
   }
+  #folio{
+    width: 600px;
+  }
 } /*closing media tag */
   
 @media screen and (max-width: 640px){
@@ -341,6 +344,9 @@ td h3{
     float: left;
     width: 400px;
     margin-top: 10px;
+  }
+  #folio{
+    width: 400px;
   }
 }
 
