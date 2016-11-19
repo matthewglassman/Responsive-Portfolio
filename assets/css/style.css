@@ -35,7 +35,7 @@ a{
   padding: 5px;
   width: 70px;
   float: right;
-/*  outline:2px dashed blue; /*DEBUG*/
+ /* outline:2px dashed blue; /*DEBUG*/
 }
 #port{ 
   margin-top: 50px;
@@ -45,7 +45,7 @@ a{
   float: right;
   border-left: 1px solid #f0f0ee;
   border-right: 1px solid #f0f0ee;
-/*  outline:2px dashed green; /*DEBUG*/
+ /* outline:2px dashed green; /*DEBUG*/
 }
 #cont{
   margin-top: 50px;
@@ -63,7 +63,7 @@ header{
   margin-bottom: 0;
   overflow: auto;
   border-bottom: 2px solid #cccccc;
- /* outline:2px dashed black; /*DEBUG*/
+ outline:2px dashed black; /*DEBUG*/
 }
 body{
   min-height: 100%;
@@ -250,3 +250,72 @@ td h3{
   margin: 20px;
   padding: 15px 0 15px 0;
 }
+@media screen and (max-width: 768px) {
+  .connection{
+    text-align: left;
+    clear: both;
+    width: 100%;
+  } /*closing connection css */
+  #bout{
+  margin-top: 50px;
+  padding: 5px;
+  width: 60px;
+  float: right;
+  /*outline:2px dashed blue; */
+  }
+  #port{ 
+  margin-top: 50px;
+  margin-right: 1px;
+  padding: 5px;
+  width: 70px; 
+  float: right;
+  border-left: 1px solid #f0f0ee;
+  border-right: 1px solid #f0f0ee;
+  /*outline:2px dashed green; /*DEBUG*/
+  }
+  #cont{
+  margin-top: 50px;
+  padding: 5px;
+  width: 60px;
+  float: right;
+  margin-right: 30px;
+ /*outline:2px dashed purple; /*DEBUG*/
+  }
+} /*closing media tag */
+  
+@media screen and (max-width: 640px){
+  .name{
+    width: 100%;
+    overflow: auto;
+  }
+  #me{
+    height: 800px;
+    width: 100%;
+    clear: both;
+  }
+  .full{
+    width: 450px;
+  }
+  p{
+    clear: left;
+    line-height: 15px;
+  }
+  #cont{
+  margin-top: 0;
+  }
+  #port{
+  margin-top: 0;
+  }
+  #bout{
+  margin-top: 0;
+  }
+  #meAbout{
+    font-size: 20px;
+  }
+  #mePhoto{
+  height: 385px;
+  width: 387px;
+  margin-bottom: 2px;
+  }
+}
+
