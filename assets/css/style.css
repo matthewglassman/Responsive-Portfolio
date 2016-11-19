@@ -253,8 +253,9 @@ td h3{
 @media screen and (max-width: 768px) {
   .connection{
     text-align: left;
-    clear: both;
-    width: 100%;
+    float: left;
+    width: 600px;
+    margin-top: 10px;
   } /*closing connection css */
   #bout{
   margin-top: 50px;
@@ -280,6 +281,15 @@ td h3{
   float: right;
   margin-right: 30px;
  /*outline:2px dashed purple; /*DEBUG*/
+  }
+  #contactarea{
+    width: 600px;
+  }
+  input{
+    width: 600px;
+  }
+  textarea{
+    width: 600px;
   }
 } /*closing media tag */
   
@@ -316,6 +326,21 @@ td h3{
   height: 385px;
   width: 387px;
   margin-bottom: 2px;
+  }
+  #contactarea{
+    width: 400px;
+  }
+  input{
+    width: 400px;
+  }
+  textarea{
+    width: 400px;
+  }
+  .connection{
+    text-align: left;
+    float: left;
+    width: 400px;
+    margin-top: 10px;
   }
 }
 
