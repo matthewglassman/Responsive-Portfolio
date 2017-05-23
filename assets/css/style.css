@@ -63,7 +63,7 @@ header{
   margin-bottom: 0;
   overflow: auto;
   border-bottom: 2px solid #cccccc;
- 
+
 }
 body{
   min-height: 100%;
@@ -248,17 +248,6 @@ td h3{
   left: 0;
   right: 0;
   margin: 20px;
-  padding: 3px 0 3px 0;
-}
-h4{
-  background-color: #4aaaa5;
-  text-align: center;
-  color: #ffffff;
-  position: absolute;
-  bottom: 4px;
-  left: 0;
-  right: 0;
-  margin: 20px;
   padding: 15px 0 15px 0;
 }
 @media screen and (max-width: 768px) {
@@ -360,4 +349,3 @@ h4{
     width: 400px;
   }
 }
-
