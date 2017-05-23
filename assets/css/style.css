@@ -63,7 +63,7 @@ header{
   margin-bottom: 0;
   overflow: auto;
   border-bottom: 2px solid #cccccc;
- /*outline:2px dashed black; /*DEBUG*/*/
+ 
 }
 body{
   min-height: 100%;
