@@ -64,10 +64,10 @@ if(isset($_POST['sender_email'])) {
     $email_message .= "Message: ".clean_string($sender_message)."\n";
  
 // create email headers
-$headers = 'From: '.$email."\r\n".
-'Reply-To: '.$email."\r\n" .
+$headers = 'From: '.$sender_email."\r\n".
+'Reply-To: '.$sender_email."\r\n" .
 'X-Mailer: PHP/' . phpversion();
-@mail($email_to, $email_subject, $email_message, $headers);  
+@mail($email_to, $email_subject, $sender_message, $headers);  
 ?>
  
 <!-- include your own success html here -->
