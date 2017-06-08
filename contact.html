@@ -15,7 +15,30 @@
 <section id="contactarea">
 <h1 id="contact">Contact</h1>
 <hr>
-<form name="contactme" method="post" action="sendform.php">
+<form method="POST" action="https://formspree.io/matthewglassman78@gmail.com">
+    <div>
+		<label for="name">Name</label>
+		<br>
+		<input type="text" name="name" value="John Smith" />
+	</div>
+	<br>
+	<div>
+		<label for="mail">E-mail</label>
+		<br>
+		<input type="email" name="email" value="example@gmail.com"/>
+	</div>
+	<br>
+	<div>
+		<label for="message">Message</label>
+		<br>
+		<textarea id="message" name="message"></textarea>
+	</div>
+	<div>
+		<input type="submit" value="Submit">
+	</div>
+	<input type="hidden" name="_next" value="https://gentle-river-19225.herokuapp.com/index.html" />
+</form>
+<!-- <form name="contactme" method="post" action="sendform.php">
 	<div>
 		<label for="name">Name</label>
 		<br>
@@ -36,7 +59,7 @@
 	<div>
 		<input id="submit" name="submit" type="submit" value="Submit">
 	</div>
-</form>
+</form> -->
 </section>
 	 <aside class="connection">
         <h3 id="connectionHead">Connect with Me</h3>
